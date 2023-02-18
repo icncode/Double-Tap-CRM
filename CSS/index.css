@@ -12,4 +12,20 @@
     top:9px;
     color:#0D6EFD;
 }
-/*  */
+
+#circle-svg{
+    width: 2.7em;
+    height: 4.9em;
+    position: relative;
+    left: 0.8em;
+    z-index: 1
+}
+
+#money-svg{
+    width: 1.4em;
+    position: relative;
+    left: -1.5em;
+    top: -0.2em;
+    z-index: 2;
+}
+
