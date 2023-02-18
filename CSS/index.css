@@ -29,3 +29,145 @@
     z-index: 2;
 }
 
+/* ------------------------------JOSE LAURITO------------------------------ */
+
+.footer{
+    background-color:#0750f8;
+    width: 100%;
+    height: 300px;
+}
+
+.div1{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.div2{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.text1{
+    display: flex;
+    position: relative;
+    align-content: center;
+    color: white;
+    font-weight: 700;
+}
+
+.text2{
+    display: flex;
+    position: relative;
+    align-content: center;
+    color: white;
+    font-size: 21px;
+}
+
+.footer-button{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    padding-top: 20px;
+    gap:80px
+
+}
+
+.getstarted-group{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #7fd125;
+    border-radius: 8px;
+    width: 200px;
+    height: 50px;
+}
+
+.get-started-button{
+    display: flex;
+    position: relative;
+    justify-content: start;
+    align-self: center;
+    color: white;
+    font-size: 25px;
+    padding-top: 9px;
+    padding-right:10px;
+    /* margin-right: 13px; */
+
+}
+
+.getstarted-group:hover{
+    background-color: #6fb91f;
+}
+
+.chat-group{
+    display: flex;
+    background-color: white;
+    width: 225px;
+    height: 50px;
+    border-radius: 8px;
+    justify-content: center;
+    padding-right: 0px;
+    gap:9px
+    
+}
+.chat-us-button{
+
+color:#0d4fea;
+font-size: 18px;
+font-family:sans-serif;
+font-weight: bolder;
+padding-top: 15px;
+padding-right: 14px;
+text-decoration: none;
+}
+
+.chat-group:hover{
+    background-color: rgb(216, 215, 215);
+}
+
+.anchor1, .anchor2, .anchor3, .anchor4, .anchor5{
+    text-decoration: none;
+}
+
+.anchor3:hover, .anchor4:hover, .anchor5:hover{
+}
+
+.message-jpg{
+    width: 28px;
+    height: 40px;
+    padding-top: 13px;
+}
+
+.footer-info{
+    display: flex;
+    position: relative;
+    margin-top: 30px;
+    justify-content: center;    
+}
+
+.footer-info1{
+    display: flex;
+    position: relative;
+    list-style-type: none;
+    color: white;    
+}
+
+.footer2{
+    display: flex;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: white;
+}
+
+.arrow-jpg{
+    display: flex;
+    position: relative;
+    top:18px;
+    width:15px;
+    height:15px
+}
+
