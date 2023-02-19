@@ -1,3 +1,4 @@
+/* Lukas Reeves */
 .nav-item{
     font-size:smaller;
 }
@@ -13,7 +14,7 @@
     color:#0D6EFD;
 }
 
-#circle-svg{
+#payments-circle{
     width: 2.7em;
     height: 4.9em;
     position: relative;
@@ -21,7 +22,7 @@
     z-index: 1
 }
 
-#money-svg{
+#payments-money{
     width: 1.4em;
     position: relative;
     left: -1.5em;
