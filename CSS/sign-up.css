@@ -38,9 +38,11 @@ body{
 }
 .username-logo{
     width: 17px;
+    background-color: white;
 }
 .username-button{
     border: none;
+    background-color: white;
 }
 #username{
     flex:1;
@@ -73,9 +75,11 @@ body{
 }
 .email-logo{
     width: 1000px;
+    background-color: white;
 }
 .email-button{
     border: none;
+    background-color: white;
 }
 #email{
     flex:1;
@@ -165,13 +169,7 @@ body{
     padding-right: 60px;
     padding-left: 60px;
     border-radius: 40px;
-    text-decoration: none;
-
-    
-    .signupb{
-        text-decoration: none;
-    }
-    
+    text-decoration: none;   
 }
   
   .text { grid-area: text;
