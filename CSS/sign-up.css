@@ -156,9 +156,9 @@ grid-template-areas:
   border-radius: 40px;
   text-decoration: none;
 }
-  .signupb{
-      text-decoration: none;
-  }
+.signupb{
+    text-decoration: none;
+}
 .text { grid-area: text;
 display: flex;
 position: relative;
