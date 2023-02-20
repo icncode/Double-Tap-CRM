@@ -348,9 +348,9 @@ body{
   position: relative;
   justify-content: center;
   top:20px
-  
  
 }
+
 #signup-button{
   display: flex;
   position: relative;
@@ -408,4 +408,8 @@ padding-top:30px}
 
 #linkedin{
   width: 65px;
+}
+
+.signupb {
+  text-decoration: none;
 }
