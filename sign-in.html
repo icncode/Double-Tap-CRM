@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -6,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Sign In</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="/CSS/sign-in.css"/>
+    <link rel="stylesheet" href="CSS/sign-in.css">
   </head>
   <!---Bryant Keefe---->
-  <body>
+  <body style="overflow: hidden;">
     <div class="container-a">
       <div class="sign-in-flex">
         <div class="column-a">
@@ -17,30 +16,28 @@
              <p class="column-a-p">Don't Have An Account Yet?</p>
              <p class="column-a-p">What are you waiting for? Let's fix that now!</p>
             </div>
-            <a class="column-a-btn" href="./sign-up.html">Sign Up</a>
+            <a class="column-a-btn" href="/sign-up.html">Sign Up</a>
             <img class="column-a-img" src="Images/DoubleTapAssets/DoubleTapAssets/login/Group 15.png" alt="" />
         </div>
-        
-      <!-- Sign in Right Column -->    
-      <div class="container">
+      <div class="container" style="position:absolute; left:60%; top:-10%; margin:0; padding:0; width:200px!important;">
       <div class="username">
         <form action="" class="username-margin">
             <button class="username-button" type="submit"><img class="username-logo" src="/Images/DoubleTapAssets/DoubleTapAssets/icons/user.png"></button>
             <input id="username" type="text" placeholder="  Username">
         </form>
-    </div>
-    <div class="email">
+      </div>
+      <div class="email">
         <form action="" class="email-margin">
             <button class="password-button" type="submit"><img class="password-logo" src="/Images/DoubleTapAssets/DoubleTapAssets/icons/mail.png"></button>
             <input id="email" type="text" placeholder="  Email">
         </form>
-    </div>
-    <div class="password">
+      </div>
+      <div class="password">
         <form action="" class="password-margin">
             <button class="password-button" type="submit"><img class="password-logo" src="/Images/DoubleTapAssets/DoubleTapAssets/icons/padlock.png"></button>
             <input type="password" id="password" placeholder="  Password">
         </form>
-    </div>
+      </div>
     <div class="signup-text">
         <h1 id="signup-text">Sign In</h1>
     </div>
@@ -56,9 +53,9 @@
         <a href="https://www.google.com/"><img id="google" src="/Images/DoubleTapAssets/DoubleTapAssets/icons/google-plus.png" alt="GooglePlus"></a>
         <a href="https://www.linkedin.com/"><img id="linkedin" src="/Images/DoubleTapAssets/DoubleTapAssets/icons/linkedin.png" alt="LinkedIn"></a>
     </div>
-    
-
     </div class="container">
+    
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
   </div>
   </body>
